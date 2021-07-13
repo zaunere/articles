@@ -1,0 +1,19 @@
+{
+  "name": "install-skel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "functions-framework --target=validateTemperature",
+    "startdev": "nodemon --inspect node_modules/@google-cloud/functions-framework --target=validateTemperature",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
